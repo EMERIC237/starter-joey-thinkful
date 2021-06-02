@@ -1,0 +1,49 @@
+header{
+    background-color:#0B1C51;
+    color:white;
+}
+
+header h1{
+    text-align:center;
+    margin:0;
+    padding:10 10;
+    size: 52px;
+}
+
+header nav{
+    justify-content:center;
+}
+
+header nav ul{
+    font-family: Montserrat, arial, sans-serif;
+    list-style: none;
+    display:flex;
+    justify-content:center;
+}
+header nav ul li a{
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    color:white;
+}
+
+header nav ul li:last-child a{
+    margin-right: 0;
+}
+
+/*desktop design*/
+@media all and (min-width:600px){
+    header{
+        display:flex;
+        justify-content:space-between;
+    }
+    header h1{
+        padding: 10px 20px;
+        margin: 0px 0px;
+        size: 48px;
+    }
+    header nav{
+        padding-right: 20px;
+        margin: 0;
+        padding-top: 10px;
+    }
+}
